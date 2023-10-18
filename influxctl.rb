@@ -1,4 +1,4 @@
-class influxctl < Formula
+class Influxctl < Formula
     desc "CLI to manage InfluxDB v3 instances"
     homepage "https://docs.influxdata.com/influxdb/cloud-dedicated/reference/cli/influxctl/"
     version "2.0.4"
