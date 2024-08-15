@@ -1,16 +1,16 @@
 class Influxctl < Formula
 	desc "CLI to manage InfluxDB v3 instances"
 	homepage "https://docs.influxdata.com/influxdb/cloud-dedicated/reference/cli/influxctl/"
-	version "v2.9.5"
+	version "v2.9.6"
 
 	if Hardware::CPU.arm?
-		url "https://dl.influxdata.com/influxctl/releases/influxctl-v2.9.5-darwin-arm64.zip"
-		sha256 "464bdd7489f05015e55c31f545eb3c428489e64c5e2d7c52e29efe21e1f73b16"
+		url "https://dl.influxdata.com/influxctl/releases/influxctl-v2.9.6-darwin-arm64.zip"
+		sha256 "cdbe47774d6b95794d8c0b46ffc4b6b3f744740f0d7c67ffdeb993b4cc75a1d8"
 	end
 
 	if Hardware::CPU.intel?
-		url "https://dl.influxdata.com/influxctl/releases/influxctl-v2.9.5-darwin-x86_64.zip"
-		sha256 "aa6a6296f73a215943c563eb6d405eb270e30d0d3ba8fba9b4451e77719fbe4c"
+		url "https://dl.influxdata.com/influxctl/releases/influxctl-v2.9.6-darwin-x86_64.zip"
+		sha256 "feb01a36f34aa7b0ebe0955d56270c1d4fba4fa8de91ce163e237abd2e5f19b7"
 	end
 
 	def install
